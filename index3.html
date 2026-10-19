@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazonie-Digital | Audiovisuel & Web</title>
+
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">AMAZONIE-DIGITAL</div>
+
+      <div class="tabs">
+        <button class="tab active" data-section="home">Accueil</button>
+        <button class="tab" data-section="photo">Audiovisuel</button>
+        <button class="tab" data-section="digital">Création web</button>
+      </div>
+    </nav>
+
+    <main>
+      <!-- HOME -->
+      <section id="home" class="section active home">
+        <div class="container home-grid">
+          <div>
+            <div class="eyebrow reveal-3d">Studio créatif indépendant</div>
+
+            <h1 class="reveal-3d">Amazonie<br /><span>Digital</span></h1>
+
+            <p class="home-intro reveal-3d">
+              Un studio qui mélange nature, cinéma et technologie pour créer des
+              images et des sites qui rendent fier.
+            </p>
+
+            <div class="home-actions reveal-3d">
+              <button class="btn dark" data-goto="photo">
+                Découvrir l'audiovisuel
+              </button>
+              <button class="btn light" data-goto="digital">
+                Voir la création web
+              </button>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal-3d">
+            <div class="hero-badge">Studio Amazonie-Digital</div>
+
+            <div class="hero-card hero-card-photo">
+              <span class="hero-label">Audiovisuel</span>
+              <p>Vidéos cinématiques, photos naturelles, émotions vraies.</p>
+            </div>
+
+            <div class="hero-card hero-card-web">
+              <span class="hero-label">Création web</span>
+              <p>Sites premium, rapides, pensés comme des expériences.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHOTO -->
+      <section id="photo" class="section photo">
+        <div class="container">
+          <div class="photo-hero">
+            <div>
+              <div class="eyebrow reveal-3d">Audiovisuel & Photographie</div>
+
+              <h2 class="reveal-3d">Capturer<br /><em>le vivant.</em></h2>
+
+              <p class="photo-description reveal-3d">
+                Des images qui respirent la nature, la lumière et le mouvement.
+              </p>
+
+              <div class="home-actions reveal-3d">
+                <a href="#contact" class="btn dark">Parler d'un projet</a>
+              </div>
+            </div>
+
+            <div class="photo-frame reveal-3d">
+              <div class="leaf leaf-1"></div>
+              <div class="leaf leaf-2"></div>
+              <div class="leaf leaf-3"></div>
+              <div class="leaf leaf-4"></div>
+              <div class="photo-frame-center"></div>
+            </div>
+          </div>
+
+          <div class="photo-card reveal-3d">
+            <p>
+              Vidéos cinématiques · Photographie naturelle · Pack sur mesure.
+            </p>
+          </div>
+
+          <div class="photo-gallery">
+            <article
+              class="gallery-item reveal-3d"
+              onmouseenter="this.querySelector('video').play()"
+              onmouseleave="this.querySelector('video').pause()"
+            >
+              <span class="gallery-number">01</span>
+              <span class="gallery-title">Vidéo</span>
+              <video muted loop preload="none">
+                <source src="./legendarys_3.mp4" type="video/mp4" />
+              </video>
+            </article>
+
+            <article class="gallery-item reveal-3d">
+              <span class="gallery-number">02</span>
+              <span class="gallery-title">Photo</span>
+              <img src="DSC02495.1.png" alt="Photo" />
+            </article>
+
+            <article class="gallery-item reveal-3d">
+              <span class="gallery-number">03</span>
+              <span class="gallery-title">Impact Visuel</span>
+              <img src="pub.jpg" alt="Impact Visuel" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIGITAL -->
+      <section id="digital" class="section digital">
+        <div class="container">
+          <div class="digital-hero">
+            <div class="eyebrow reveal-3d">Création de sites web</div>
+            <h2 class="reveal-3d">Une identité<br /><span>digitale</span></h2>
+
+            <p class="digital-intro reveal-3d">
+              Des sites pensés comme des expériences : rapides, élégants,
+              immersifs.
+            </p>
+          </div>
+
+          <div class="services">
+            <article class="service reveal-3d">
+              <span class="service-number">01 / DESIGN</span>
+              <h3>Identité visuelle</h3>
+              <p>Direction artistique inspirée par la nature et le cinéma.</p>
+            </article>
+
+            <article class="service reveal-3d">
+              <span class="service-number">02 / DEVELOPMENT</span>
+              <h3>Sites sur mesure</h3>
+              <p>Interfaces fluides, responsives, optimisées.</p>
+            </article>
+
+            <article class="service reveal-3d">
+              <span class="service-number">03 / STRATEGY</span>
+              <h3>Expérience digitale</h3>
+              <p>Parcours utilisateur conçu pour créer de la confiance.</p>
+            </article>
+          </div>
+
+          <div class="pricing">
+            <a class="price-button reveal-3d" href="#contact">
+              <span class="price-title">Site vitrine — 899,99 €</span>
+              <span class="price-details">
+                Présence forte et simple pour ton univers.
+              </span>
+            </a>
+
+            <a class="price-button reveal-3d" href="#contact">
+              <span class="price-title">Site boutique — 1 599,99 €</span>
+              <span class="price-details">
+                Produits, panier, paiement, expérience premium.
+              </span>
+            </a>
+
+            <a class="price-button reveal-3d" href="#contact">
+              <span class="price-title">Site forum — 1 999,99 €</span>
+              <span class="price-details">
+                Profils, discussions, messages, communauté.
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer reveal-3d">
+      <span>© AMAZONIE-DIGITAL</span>
+      <span>Audiovisuel · Web · Identité digitale</span>
+    </footer>
+
+    <script>
+      // NAVBAR : changement de section
+      const tabs = document.querySelectorAll(".tab");
+      const sections = document.querySelectorAll(".section");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const target = tab.dataset.section;
+
+          tabs.forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+
+          sections.forEach((section) => {
+            section.classList.toggle("active", section.id === target);
+          });
+
+          const el = document.getElementById(target);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // Boutons "Découvrir l'audiovisuel" / "Voir la création web"
+      document.querySelectorAll("[data-goto]").forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = btn.dataset.goto;
+
+          tabs.forEach((t) => {
+            t.classList.toggle("active", t.dataset.section === target);
+          });
+
+          sections.forEach((section) => {
+            section.classList.toggle("active", section.id === target);
+          });
+
+          const el = document.getElementById(target);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // SCROLL REVEAL 3D — déclenché à chaque fois que l’élément entre dans la zone
+      const reveal3dEls = document.querySelectorAll(".reveal-3d");
+
+      const handleReveal3d = () => {
+        const trigger = window.innerHeight * 0.8;
+
+        reveal3dEls.forEach((el) => {
+          const rect = el.getBoundingClientRect();
+
+          if (rect.top < trigger && rect.bottom > 0) {
+            el.classList.add("visible");
+          } else {
+            el.classList.remove("visible");
+          }
+        });
+      };
+
+      window.addEventListener("scroll", handleReveal3d);
+      window.addEventListener("load", handleReveal3d);
+    </script>
+  </body>
+</html>
